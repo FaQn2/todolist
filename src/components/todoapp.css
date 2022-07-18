@@ -1,0 +1,82 @@
+.todoContainer {
+    width: 500px;
+    margin: 100px auto;
+  
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .todoCreateForm {
+    display: flex;
+    gap: 5px;
+    
+  }
+  
+  .todoInput {
+    flex-grow: 1;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: solid 1px #999;
+    
+  }
+  
+  .buttonCreate {
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(26, 76, 169);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: linear-gradient(145deg, #0cc945, #07851c);
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+  }
+  
+  .todosContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  
+  .todo {
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .todoTitle {
+    flex: 1;
+    font-size: 20px;
+  }
+  .todoUpdateForm,
+  .todoInfo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .button {
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(42, 122, 221);
+    color: white;
+    padding: 10px 20px;
+    background: linear-gradient(145deg, #1947df, #110674);
+    box-shadow:  20px 20px 60px #bebebe,
+                 -20px -20px 60px #ffffff;
+    cursor: pointer;
+  }
+  
+  .buttonDelete {
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(236, 73, 73);
+    color: white;
+    padding: 10px 20px;
+    background: linear-gradient(145deg, #eb0f0f, #750404);
+    box-shadow:  20px 20px 60px #bebebe,
+                 -20px -20px 60px #ffffff;
+             cursor: pointer;
+  }
+  
